@@ -7,8 +7,46 @@
   <title>Hello Front-End</title>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+  <h1>Temperature Converter</h1>
 
+<form action="#" method="POST">
+
+  <div id="textArea"> 
+    <input type="text" name="temperatureToConvert" id="tempToConvert" placeholder="What's the temp?">
+  </div>
+
+  <p id="radio-buttons"> Choose Degree:
+    <label>
+        <input type="radio" name="fahrenheit" value="F">°F
+    </label>
+    <label>
+      <input type="radio" name="celcius" value="C">°C
+    </label>
+  </p>
+
+
+  <p id="submit">
+    <input type="submit" value="submit">
+  </p>
+
+  <p id="clear">
+    <input type="button" value="clear"> 
+  </p>
+
+<p id="text-appear">
+
+</p>
+
+
+
+
+
+  </form>
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
   <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
